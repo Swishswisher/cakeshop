@@ -1,0 +1,95 @@
+.app__Bytes{
+    padding: 3em 4em;
+    background: #FDFFD5;
+}
+
+.app__Bytes-header{
+    display: flex;
+}
+
+.app__Bytes-h1{
+    color: #F397B0;
+    margin-right: 0.85em;
+}
+
+.app__Bytes-link{
+    padding-top: 0.65em;
+    color: #76D9D2;
+}
+
+.app__Bytes-items{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+
+.app__Bytes-cake{
+    width: 210px;
+    border-radius: 10px;
+    padding: 0.85em;
+    text-align: center;
+    cursor: pointer;
+    margin: 1em;
+}
+
+.app__Bytes-cake:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.app__Bytes-img{
+    width: 95%;
+    height: 175px;
+    border-radius: 10px;
+}
+
+.app__Bytes-p1{
+    letter-spacing: 0.035em;
+    margin-top: 1em;
+    margin-bottom: 0.55em;
+}
+
+@media screen and (min-width: 1500px) {
+    .app__Bytes-h1{
+        font-size: 50px;
+    }
+
+    .app__Bytes-link{
+        padding-top: 1.2em;
+        font-size: 20px;
+    }
+
+    .app__Bytes-cake{
+        width: 300px;
+    }
+
+    .app__Bytes-img{
+        height: 230px;
+    }
+}
+
+@media screen and (max-width: 611px) {
+    .app__Bytes-cake{
+        width: 95%;
+    }
+
+    .app__Bytes-img{
+        height: 65%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .app__Bytes-cake{
+        width: 95%;
+    }
+
+    .app__Bytes-img{
+        height: 185px;
+    }
+}
+
+@media screen and (max-width: 363px) {
+    .app__Bytes-header{
+        display: block;
+        text-align: center;
+    }
+}

@@ -1,0 +1,158 @@
+.app__Popular{
+    padding: 2em 4em;
+}
+
+.app__Popular-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.app__Popular-header-1{
+    display: flex;
+}
+
+.app__Popular-h1{
+    color: #F397B0;
+    font-size: 35px;
+    margin-right: 0.85em;
+}
+
+.app__Popular-link{
+    color: #76D9D2;
+    justify-content: flex-end;
+    padding-top: 0.85em;
+}
+
+.app__Popular-header-2{
+    display: flex;
+}
+
+.app__Popular-p-1{
+    padding-top: 0.4em;
+}
+
+.app__Popular-options{
+    margin-left: 0.75em;
+    height: 2em;
+    letter-spacing: 0.04rem;
+    border: 1px solid #2D2D2D;
+    background: #fff;
+}
+
+.app__Popular-p{
+    letter-spacing: 0.04rem;
+}
+
+.app__Popular-items{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.app__Popular-items-single-cake{
+    width: 210px;
+    margin: 1em;
+    padding: 0.55em;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.app__Popular-items-single-cake:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.app__Popular-items-img{
+    width: 95%;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.app__Popular-p-2{
+    margin-top: 0.5em;
+    letter-spacing: 0.035em;
+}
+
+.app__Popular-p-3{
+    font-weight: 650;
+}
+
+@media screen and (max-width: 700px) {
+    .app__Popular-header{
+        display: block;
+        text-align: center;
+    }
+
+    .app__Popular-h1{
+        font-size: 40px;
+    }
+
+    .app__Popular-header-1{
+        display: block;
+        margin-bottom: 2em;
+    }
+
+    .app__Popular-header-2{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 611px) {
+    .app__Popular{
+        padding: 2em 4em;
+    }
+
+    .app__Popular-header{
+        display: block;
+        text-align: center;
+    }
+
+    .app__Popular-h1{
+        font-size: 40px;
+    }
+
+    .app__Popular-header-1{
+        display: block;
+        margin-bottom: 2em;
+    }
+
+    .app__Popular-header-2{
+        display: block;
+    }
+
+    .app__Popular-items-single-cake{
+        width: 80%;
+    }
+
+    .app__Popular-items-img{
+        height: 70%;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    .app__Popular{
+        padding: 2em 1em;
+    }
+
+    .app__Popular-header{
+        display: block;
+        text-align: center;
+    }
+
+    .app__Popular-h1{
+        font-size: 40px;
+    }
+
+    .app__Popular-header-1{
+        display: block;
+        margin-bottom: 2em;
+    }
+    
+    .app__Popular-header-2{
+        display: block;
+    }
+}
+
+

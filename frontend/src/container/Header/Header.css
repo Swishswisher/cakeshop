@@ -1,0 +1,86 @@
+
+.app__header-carousel{
+    display: flex;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    left: 10%;
+    overflow: hidden;
+}
+
+.app__header-carousel-1{  
+    z-index: 10;  
+    display: flex;    
+    justify-content: space-between;
+    height: 80vh;  
+    width: 100%;
+    margin-right: 3em;
+}
+
+.app__header-carousel-img{
+    width: 80%;
+}
+
+.app__header-carousel-content{
+    background: #FDFFD5;
+    padding: 4rem 10rem 5rem 5rem; 
+}
+
+.app__header-h3{
+    color: #76D9D2;
+    margin-bottom: 0.65rem;
+}
+
+.app__header-h1{
+    color: #F397B0;
+    font-size: 4rem; 
+    margin-bottom: 0.65rem;   
+}
+
+.app__header-p{
+    margin-bottom: 5rem;
+}
+
+.app__explore-button{
+    background: #2D2D2D;
+    color: beige;
+    width: 8rem;
+    margin-right: 0.5rem;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.app__order-button{
+    background: #F397B0;
+    color: #2D2D2D;
+    width: 8rem;
+    margin-right: 0.5rem;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.app__Header-carousel-arrows{
+    padding: 1em 1em 0 1em;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    bottom: 5%;
+    justify-content: space-between;
+}
+
+.carousel-arrow-icon{
+    font-size: 2rem;
+    cursor: pointer;
+    color: #2D2D2D;
+    background: #F397B0;
+    border-radius: 5px; 
+}
+
+.carousel-arrow-icon:hover{
+    background: #2D2D2D;
+    color: #F397B0;
+}

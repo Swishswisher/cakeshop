@@ -1,0 +1,94 @@
+.app__Recent{
+    padding: 3em 4em;
+}
+
+.app__Recent-header{
+    display: flex;
+}
+
+.app__Recent-h1{
+    color: #F397B0;
+    margin-right: 0.85em;
+}
+
+.app__Recent-link{
+    padding-top: 0.65em;
+    color: #76D9D2;
+}
+
+.app__Recent-items{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+
+.app__Recent-cake{
+    width: 210px;
+    border-radius: 10px;
+    padding: 0.85em;
+    text-align: center;
+    cursor: pointer;
+    margin: 1em;
+}
+
+.app__Recent-cake:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.app__Recent-img{
+    width: 95%;
+    height: 175px;
+    border-radius: 10px;
+}
+
+.app__Recent-p1{
+    letter-spacing: 0.035em;
+    margin-top: 1em;
+    margin-bottom: 0.55em;
+}
+
+@media screen and (min-width: 1500px) {
+    .app__Recent-h1{
+        font-size: 50px;
+    }
+
+    .app__Recent-link{
+        padding-top: 1.2em;
+        font-size: 20px;
+    }
+
+    .app__Recent-cake{
+        width: 300px;
+    }
+
+    .app__Recent-img{
+        height: 230px;
+    }
+}
+
+@media screen and (max-width: 611px) {
+    .app__Recent-cake{
+        width: 95%;
+    }
+
+    .app__Recent-img{
+        height: 65%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .app__Recent-cake{
+        width: 95%;
+    }
+
+    .app__Recent-img{
+        height: 185px;
+    }
+}
+
+@media screen and (max-width: 363px) {
+    .app__Recent-header{
+        display: block;
+        text-align: center;
+    }
+}

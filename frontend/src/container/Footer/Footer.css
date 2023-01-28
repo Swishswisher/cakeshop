@@ -1,0 +1,142 @@
+.app__Footer{
+    background: #2D2D2D;
+    width: 100%;
+}
+
+.app__Footer-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    padding: 3em 4em 0 4em;
+}
+
+.app__Footer-header-div{
+    width: 300px;
+}
+
+.app__Footer-h2{
+    color: #fff;
+    margin-bottom: 0.65em;
+}
+
+.app__Footer-p{
+    color: #fff;
+    letter-spacing: 0.035em;
+    line-height: 1.5em;
+}
+
+.app__Footer-h3{
+    color: #fff;
+    margin-bottom: 0.65em;
+}
+
+.app__Footer-links-div{
+    display: flex;
+    justify-content: space-beween;
+}
+
+.app__Footer-links-div-1{
+    margin-right: 3em;
+}
+
+.app__Footer-li{
+    list-style: none;
+    color: #fff;
+    line-height: 2em;
+    letter-spacing: 0.035em;
+}
+
+.app__Footer-li:hover{
+    color: #F397B0;
+}
+
+.app__Footer-a{
+    text-decoration: none;
+    letter-spacing: 0.035em;
+}
+
+.app__Footer-h1{
+    color: #fff;
+    margin-bottom: 0.65em;
+}
+
+.app__Footer-input{
+    outline: none;
+    padding: 5px;
+    margin: 1em 0 1em 0;
+    margin-right: 10px;
+    background: #2D2D2D;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+#input-1{
+    margin-right: 1em;
+}
+
+.app__Footer-btn{
+    color: #2D2D2D;
+    width: 130px;
+    padding: 5px;
+    border-radius: 0;
+    border: none;
+    margin-right: 2em;
+}
+
+.app__Footer-btn:hover{
+    background: #F397B0;
+    color: #fff;
+}
+
+.app__Footer-footer{
+    display: flex;
+    justify-content: space-between;
+    background: #000;
+    width: 100%;
+    padding-left: 4em;
+    padding-right: 4em;
+    align-items: center;
+}
+
+.app__Footer-footer-p{
+    color:#F397B0;
+    letter-spacing: 0.035em;
+    margin-bottom: 1em;
+    margin-top: 1em; 
+}
+
+.app__Footer-stay-tuned-div{
+    display: flex;
+}
+
+.app__Footer-icons{
+    color: #fff;
+}
+
+.app__Footer-social:hover{
+    color: #F397B0;
+}
+
+@media screen and (max-width: 727px) {
+    .app__Footer-header-div{
+        margin-top: 2em;
+    }
+
+    .app__Footer-footer{
+        display: block;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .app__Footer-stay-tuned-div{
+        display: block;
+    }
+
+    .app__Footer-btn{
+        margin-bottom: 1em;
+    }
+}
+
