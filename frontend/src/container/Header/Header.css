@@ -1,29 +1,36 @@
+.app__header{
+    height: 100vh;
+    width: 100vw;
+    
+    
+}
 
 .app__header-carousel{
     display: flex;
     position: absolute;
-    top: 10%;
-    right: 10%;
+    top: 5%;
     left: 10%;
-    overflow: hidden;
+    width: 100%;
+    
 }
 
-.app__header-carousel-1{  
-    z-index: 10;  
-    display: flex;    
-    justify-content: space-between;
-    height: 80vh;  
-    width: 100%;
-    margin-right: 3em;
+.app__header-carousel-1{
+    border-radius: 5px;
+    display: flex;
+    width: 1000px; 
+    height: 80vh;
+    margin-right: 3rem; 
+    
 }
 
 .app__header-carousel-img{
-    width: 80%;
+    width: 400px;
 }
 
 .app__header-carousel-content{
     background: #FDFFD5;
-    padding: 4rem 10rem 5rem 5rem; 
+    padding: 4rem 10rem 5rem 5rem;
+    width: 600px;
 }
 
 .app__header-h3{
@@ -83,4 +90,115 @@
 .carousel-arrow-icon:hover{
     background: #2D2D2D;
     color: #F397B0;
+}
+
+@media screen and (max-width: 1270px) {
+    .app__header-carousel-1{
+        width: 800px;
+        height: 60vh
+    }
+
+    .app__header-carousel-img{
+        width: 350px;
+    }
+
+    .app__header-carousel-content{
+        width: 450px;
+        padding: 2em;
+    }
+
+} 
+
+@media screen and (max-width: 1000px) {
+    .app__header-carousel-1{
+        width: 600px;
+        height: 50vh;
+    }
+
+    .app__header-carousel-img{
+        width: 250px;
+    }
+
+    .app__header-h1{
+        font-size: 3rem; 
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .app__header-carousel-1{
+        width: 500px;
+        height: 450px;
+        margin-right: 2rem;
+    }
+
+    .app__header-carousel-img{
+        width: 200px;
+    }
+
+    .app__header-carousel-content{
+        width: 300px;
+        margin-right: 2rem;
+    }
+
+    .app__header-p{
+        margin-bottom: 2rem;
+    }
+
+    .app__order-button, .app__explore-button{
+        width: 4rem;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .app__header-carousel-1{
+        flex-direction: column;
+        width: 70vw;
+        height: 720px;
+    }
+
+    .app__header-carousel-img{
+        width: 100%;
+        height: 300px;
+    }
+
+    .app__header-carousel-content{
+        width: 100%;
+    }
+
+    .app__header-h1{
+        font-size: 2rem; 
+        margin-bottom: 0.65rem;
+    } 
+}
+
+@media screen and (max-width: 320px) {
+    .app__header-carousel-1{
+        flex-direction: column;
+        width: 250px;
+        margin-right: 1em;
+        height: 720px;
+        align-items: center;
+    }
+
+    .app__header-carousel-img{
+        width: 100%;
+        height: 300px;
+    }
+
+    .app__header-carousel-content{
+        padding: 1em;
+        width:  100%;
+        height: 100%;
+    }
+
+    .app__header-h1{
+        font-size: 2rem; 
+        margin-bottom: 0.65rem;
+    }   
+
+    .app__explore-button{
+        margin-bottom: 0.65em;
+        
+    }
+    
 }

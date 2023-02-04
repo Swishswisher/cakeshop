@@ -46,9 +46,10 @@ const Header = () => {
       </div>
 
       <div className="app__Header-carousel-arrows">
-          <BsArrowLeftShort className="carousel-arrow-icon" />
-          <BsArrowRightShort className="carousel-arrow-icon" />
+          <BsArrowLeftShort className="carousel-arrow-icon"  />
+          <BsArrowRightShort className="carousel-arrow-icon"  />
       </div>
+
     </Blur>
   )
 }
