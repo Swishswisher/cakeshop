@@ -33,7 +33,7 @@ const Navbar = () => {
           <ul className="app__Navbar-ul">
               {['home', 'fathersday', 'popular', 'topbaker', 'recent', 'bytes'].map((item) => (
                 <li className="app__Navbar-links" key={`link-${item}`} >
-                  <a href={`#${item}`}>{item}</a>
+                  <a className="app__Navbar-a" href={`#${item}`}>{item}</a>
                 </li>
               ))}
           </ul>

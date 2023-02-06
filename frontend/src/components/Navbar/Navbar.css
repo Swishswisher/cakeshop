@@ -84,7 +84,7 @@
     list-style: none;
 }
 
-a{
+.app__Navbar-a{
     text-decoration: none;
     color: #FDFFD5;
     font-size: 1.3rem;
@@ -92,7 +92,7 @@ a{
     margin-right: 1rem;
 }
 
-a:hover{
+.app__Navbar-a:hover{
     color:#2D2D2D;
     transition: 0.7s;
     letter-spacing: 0.045rem;
