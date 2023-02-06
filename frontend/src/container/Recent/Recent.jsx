@@ -5,7 +5,7 @@ import {motion} from 'framer-motion'
 
 const Recent = () => {
   return (
-    <div className="app__Recent">
+    <div className="app__Recent" id="recent">
       <div className="app__Recent-header">
         <h1 className="app__Recent-h1">RECENT</h1>
         <a href="#" className="app__Recent-link">View More</a>

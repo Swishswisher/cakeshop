@@ -5,7 +5,7 @@ import {motion} from 'framer-motion'
 
 const Bytes = () => {
   return (
-    <div className="app__Bytes">
+    <div className="app__Bytes" id="bytes">
       <div className="app__Bytes-header">
         <h1 className="app__Bytes-h1">BYTES</h1>
         <a href="#" className="app__Bytes-link">View More</a>

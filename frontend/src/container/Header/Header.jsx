@@ -6,7 +6,7 @@ import {BsArrowLeftShort, BsArrowRightShort} from 'react-icons/bs'
 
 const Header = () => {
   return (
-    <Blur className="app__header" img={images.bgcake} blurRadius={35} style={{height: "100vh"}} >
+    <Blur className="app__header" id="home" img={images.bgcake} blurRadius={35} style={{height: "100vh"}} >
       <div className="app__header-carousel">
         <div className="app__header-carousel-1">
           <img className="app__header-carousel-img" alt="pink cake" src={images.carousel01} />

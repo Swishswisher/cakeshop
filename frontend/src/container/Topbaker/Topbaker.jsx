@@ -5,7 +5,7 @@ import {motion} from 'framer-motion'
 
 const Topbaker = () => {
   return (
-    <div className="app__Topbaker">
+    <div className="app__Topbaker" id="topbaker">
       <h1 className="app__Topbaker-h">TOP BAKER</h1>
 
       <div className="app__Topbaker-chefs">

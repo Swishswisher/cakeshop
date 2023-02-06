@@ -58,7 +58,7 @@ import {motion} from 'framer-motion'
 
 const Popular = () => {
   return (
-    <div className="app__Popular">
+    <div className="app__Popular" id="popular">
       <div className="app__Popular-header">
         <div className="app__Popular-header-1">
           <h1 className="app__Popular-h1">POPULAR</h1>
