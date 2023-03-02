@@ -9,7 +9,7 @@
 .app__header-carousel{
     display: flex;
     position: absolute;
-    top: 5%;
+    top: 80px;
     left: 0%;
     width: 100%;
     padding-left: 2rem;

@@ -1,13 +1,15 @@
 .app__Navbar{
-    background: #f397b0;
+    background: rgb(243, 151, 176);
     padding: 1em;
     width: 100%;
+    position: fixed;
+    z-index: 90;
 }
 
 .app__Navbar-nav{
     display: flex;
     justify-content: space-between;
-    height: 35px;
+    height: 25px;
 }
 
 .app__Navbar-logo{
@@ -51,7 +53,7 @@
 
 .app__Navbar-menu-icon{
     margin-left: 1rem;
-    color: #FFDFD5;
+    color: #FDFFD5;
     font-size: 2em;
     cursor: pointer;
 }
@@ -69,7 +71,7 @@
     display: flex;
     justify-content: space-between;
     height: 45px;
-    background: rgba(243, 156, 171, 0.45);
+    background: rgb(243, 156, 171);
 }
 
 .app__Navbar-ul{
@@ -99,7 +101,7 @@
 }
 
 .app__Navbar-close-icon{
-    color: #FDFFD5;
+    color: #2D2D2D;
     display: flex;
     justify-content:center;
     cursor: pointer;

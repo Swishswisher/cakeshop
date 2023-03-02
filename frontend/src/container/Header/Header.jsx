@@ -40,15 +40,15 @@ const Header = () => {
 
   const slideRight = ()=> {
     var slider = document.getElementById("slider")
-    slider.scrollRight -= 250
+    slider.scrollLeft -= 250
   }
 
   return (
     <Blur className="app__header" id="home" img={images.bgcake} blurRadius={35} style={{height: "100vh"}} >
-      <div className="app__header-carousel">
+      <div className="app__header-carousel" id="slider">
 
         {cards.map((cards, index) => (
-          <div className="app__header-carousel-1" id="slider" key={cards.id}>
+          <div className="app__header-carousel-1" key={cards.id}>
             <img className="app__header-carousel-img" alt={cards.alt} src={cards.img} />
       
             <div className="app__header-carousel-content">
