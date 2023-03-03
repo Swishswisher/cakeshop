@@ -42,17 +42,18 @@ const Navbar = () => {
         </div>
       )}
 
-      {/* <div className="app__Navbar-small-screen">
-        <ul className="app__Navbar-ul">
-            {['home', 'fathersday', 'popular', 'topbaker', 'recent', 'bytes'].map((item) => (
-              <li className="app__Navbar-links" key={`link-${item}`} >
-                <a href={`#${item}`}>{item}</a>
-              </li>
-            ))}
-        </ul>
-
-        <HiX className="app__Navbar-close-icon" onClick={() => setToggleMenu(false)}/>
-      </div> */}
+      {toggleMenu && (
+        <div className="app__Navbar-small-screen">
+          <HiX className="app__Navbar-small-screen-close-icon" onClick={() => setToggleMenu(false)}/>
+          <ul className="app__Navbar-samll-screen-ul">
+              {['home', 'fathersday', 'popular', 'topbaker', 'recent', 'bytes'].map((item) => (
+                <li className="app__Navbar-small-screen-links" key={`link-${item}`} >
+                  <a href={`#${item}`} className="app__Navbar-a">{item}</a>
+                </li>
+              ))}
+          </ul>          
+        </div>
+      )}
       
     </div>
   )

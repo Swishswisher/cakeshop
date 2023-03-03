@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 import {images} from '../../constants'
-import Blur from 'react-blur'
+// import Blur from 'react-blur'
 import {BsArrowLeftShort, BsArrowRightShort} from 'react-icons/bs'
 
 const Header = () => {
@@ -44,7 +44,8 @@ const Header = () => {
   }
 
   return (
-    <Blur className="app__header" id="home" img={images.bgcake} blurRadius={35} style={{height: "100vh"}} >
+    <div className="app__header bgHeader" id="home"   >
+      {/* img={images.bgcake} blurRadius={35} */}
       <div className="app__header-carousel" id="slider">
 
         {cards.map((cards, index) => (
@@ -65,7 +66,8 @@ const Header = () => {
           <BsArrowLeftShort className="carousel-arrow-icon" onClick={slideLeft} />
           <BsArrowRightShort className="carousel-arrow-icon" onClick={slideRight} />
       </div>    
-    </Blur>
+    </div>
+  
   )
 }
 

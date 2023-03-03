@@ -1,4 +1,4 @@
-import bgcake from '../assets/bgcake.jpeg'
+import bgcake from '../assets/bgcake.png'
 import carousel01 from '../assets/carousel01.jpg'
 import carousel02 from '../assets/carousel02.jpg'
 import carousel03 from '../assets/carousel03.jpg'
