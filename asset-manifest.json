@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/cakeshop/static/css/main.c93bdcbd.css",
-    "main.js": "/cakeshop/static/js/main.7963be2c.js",
+    "main.css": "/cakeshop/static/css/main.b253124d.css",
+    "main.js": "/cakeshop/static/js/main.b523a142.js",
     "static/media/carousel02.jpg": "/cakeshop/static/media/carousel02.9639f8c358eea1b48c08.jpg",
     "static/media/redVelvet.jpg": "/cakeshop/static/media/redVelvet.2264bb3417950f6ec4de.jpg",
     "static/media/carousel01.jpg": "/cakeshop/static/media/carousel01.b0072143bcb6a6b26e90.jpg",
     "static/media/carousel03.jpg": "/cakeshop/static/media/carousel03.d161a794ba2a396537e5.jpg",
     "static/media/pinkPeppermint.jpg": "/cakeshop/static/media/pinkPeppermint.0c9c841971b422903b6f.jpg",
+    "static/media/bgcake.png": "/cakeshop/static/media/bgcake.c8a997752f8938ca93b2.png",
     "static/media/unicornMeringues.jpeg": "/cakeshop/static/media/unicornMeringues.42d0d383c177eb8b552d.jpeg",
     "static/media/greenRainbow.jpeg": "/cakeshop/static/media/greenRainbow.95b1b77ee5e992953548.jpeg",
     "static/media/vanillaFunfetti.jpeg": "/cakeshop/static/media/vanillaFunfetti.885451ce9772ff060feb.jpeg",
     "static/media/raspBerryMackerons.jpeg": "/cakeshop/static/media/raspBerryMackerons.9eb828f3c43ebb112b12.jpeg",
     "static/media/sparklyPatsel.jpeg": "/cakeshop/static/media/sparklyPatsel.21a9baa50b38a62c8849.jpeg",
-    "static/media/bgcake.jpeg": "/cakeshop/static/media/bgcake.00f9c08849c03f9bf46f.jpeg",
     "index.html": "/cakeshop/index.html",
-    "main.c93bdcbd.css.map": "/cakeshop/static/css/main.c93bdcbd.css.map",
-    "main.7963be2c.js.map": "/cakeshop/static/js/main.7963be2c.js.map"
+    "main.b253124d.css.map": "/cakeshop/static/css/main.b253124d.css.map",
+    "main.b523a142.js.map": "/cakeshop/static/js/main.b523a142.js.map"
   },
   "entrypoints": [
-    "static/css/main.c93bdcbd.css",
-    "static/js/main.7963be2c.js"
+    "static/css/main.b253124d.css",
+    "static/js/main.b523a142.js"
   ]
 }
